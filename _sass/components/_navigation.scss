@@ -57,3 +57,8 @@
     background: $c__white;
   }
 }
+
+.c-navigation__container {
+  overflow: auto;
+  white-space: nowrap;
+}
