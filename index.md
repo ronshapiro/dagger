@@ -3,6 +3,8 @@ layout: default
 title: Dagger
 ---
 
+Testing 456
+
 Dagger is a fully static, compile-time [dependency injection][DI] framework for
 both Java and Android. It is an adaptation of an earlier version
 [created](https://github.com/square/dagger) by
@@ -38,4 +40,3 @@ plagued reflection-based solutions. More details can be found in
 [Square]: http://square.github.io/
 [stack-overflow]: http://stackoverflow.com/questions/tagged/dagger-2
 [+Gregory Kick]: https://google.com/+GregoryKick/
-
