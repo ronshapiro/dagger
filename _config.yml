@@ -5,9 +5,27 @@ markdown: kramdown
 dagger:
   groupId: com.google.dagger
   version: 2.2
+repository: google/dagger
 
-plugins:
-  - jekyll-remote-theme
-  
-remote_theme: alexcarpenter/material-jekyll-theme
-sha: d99ac3a830b15c99a636a6f59818ecc2a0d6f7d6
+title: Your awesome title
+email: your-email@domain.com
+description:
+  DO NOT SUBMIT
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+# Social
+githubUsername:
+twitterUsername:
+dribbbleUsername:
+codepenUsername:
+
+themeColor: orange
+fixedNav: 'true' # true or false
+
+permalink: /:year/:month/:title
+include: [_pages]
+exclude: [_site, CHANGELOG.md, LICENSE, README.md]
+sass:
+  style: compressed

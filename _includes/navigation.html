@@ -1,0 +1,11 @@
+<nav class="c-navigation {% if site.fixedNav == 'true' %}is-fixed{% endif %}">
+  <div class="c-navigation__container u-container">
+    <a class="c-navigation__item {% if page.url == '/' %}is-active{% endif %}" href="{{ "/" | prepend: site.baseurl }}">Home</a>
+    <a class="c-navigation__item {% if page.url == '/users-guide %}is-active{% endif %}" href="{{ "/users-guide" | prepend: site.baseurl }}">User's Guide</a>
+    <a class="c-navigation__item {% if page.url == '/android' %}is-active{% endif %}" href="{{ "/android" | prepend: site.baseurl }}">Android</a>
+    <a class="c-navigation__item {% if page.url == '/multibindings' %}is-active{% endif %}" href="{{ "/multibindings" | prepend: site.baseurl }}">Multibindings</a>
+    <a class="c-navigation__item {% if page.url == '/subcomponents' %}is-active{% endif %}" href="{{ "/subcomponents" | prepend: site.baseurl }}">Subcomponents</a>
+    <a class="c-navigation__item {% if page.url == '/producers' %}is-active{% endif %}" href="{{ "/producers" | prepend: site.baseurl }}">Producers</a>
+    <a class="c-navigation__item {% if page.url == '/testing' %}is-active{% endif %}" href="{{ "/testing" | prepend: site.baseurl }}">Testing</a>
+  </div>
+</nav>
